@@ -1,4 +1,4 @@
-# *Aethonix*
+# *Iretiola / Aethonix*
 
 ## 🚀 
-🔗 [View Live Site](https://iretiola.vercel.app/)
+🔗 [View Portfolio](https://iretiola.vercel.app/)
