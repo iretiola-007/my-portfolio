@@ -264,9 +264,15 @@ padding:20px;
 
 @media(max-width:600px){
 
+<<<<<<< HEAD
 /*.nav-links{
 display:none;
 }*/
+=======
+.nav-links{
+display:none;
+}
+>>>>>>> 4bbe5822222b66abfb80073947ac91896c071bb0
 
 .section-title{
 font-size:22px;
@@ -303,6 +309,7 @@ height:100%;
 width:0;
 background:linear-gradient(90deg,#c084fc,#f472b6);
 transition:width 1.5s ease;
+<<<<<<< HEAD
 }
 
 /* hamburger */
@@ -595,4 +602,6 @@ z-index:2;
 p a {
   text-decoration: none;
   color: inherit;
+=======
+>>>>>>> 4bbe5822222b66abfb80073947ac91896c071bb0
 }
