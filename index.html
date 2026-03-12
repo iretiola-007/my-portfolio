@@ -10,8 +10,11 @@
     <title>Iretiola Abisiga | Web Developer</title>
     <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
+
     <div id="cursor-glow"></div>
+
     <!-- Floating code background -->
     <div id="code-bg">
       <div>def build(): return "ideas"</div>
@@ -19,17 +22,18 @@
       <div>SELECT * FROM creativity;</div>
       <div>git commit -m "keep building"</div>
     </div>
-    
+
     <!-- Navigation -->
     <nav class="navbar">
+
       <div class="nav-logo hero-name">Iretiola</div>
-    
+
       <button class="hamburger" id="hamburger">
         <span></span>
         <span></span>
         <span></span>
       </button>
-     
+
       <ul class="nav-links" id="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -37,82 +41,103 @@
         <li><a href="#tools">Tools</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-    
+
     </nav>
-    
-    
+
+
     <!-- Hero Section / Interactive Terminal -->
     <section id="hero">
+
       <div class="terminal" id="terminal">
+
         <p class="terminal-line" data-text="$ python run.py hello_de.kyv"></p>
         <p class="terminal-line" data-text="Initializing Kyvera runtime..."></p>
         <p class="terminal-line" data-text="Hello, I'm a Web Developer"></p>
         <p class="terminal-line" data-text="Passionate developer who enjoys building things for the web"></p>
         <p class="terminal-line" data-text="and learning how systems work under the hood."></p>
+
         <div class="terminal-input-line">
-          <div class="terminal-input-line">
-            <span>$</span>
-            <input id="terminal-input" placeholder="type 'help'" autocomplete="off" />
-            <span class="cursor"></span>
-          </div>
+          <span>$</span>
+          <input id="terminal-input" placeholder="type 'help'" autocomplete="off" />
+          <span class="cursor"></span>
         </div>
-    
+
         <div id="terminal-output"></div>
+
       </div>
+
       <div class="hero-buttons">
         <a href="#projects">View Projects</a>
         <a href="#contact">Contact</a>
       </div>
+
     </section>
-    
+
+
     <!-- About -->
     <section id="about" class="fade">
       <h2 class="section-title">About Me</h2>
+
       <p>
         I'm a developer who enjoys building tools, experimenting with ideas, and
         understanding how systems work internally.
       </p>
+
       <p>
         My work ranges from web development to experimental tools and developer
         projects. I also love art — especially nature photography.
-        </p>
+      </p>
+
     </section>
-    
+
+
     <!-- Skills with Animated Bars -->
     <section id="skills" class="fade">
+
       <h2 class="section-title">Skills</h2>
+
       <div class="skill-bars">
+
         <div class="skill">
           <p>HTML</p>
           <div class="bar">
             <div class="progress" data-width="90%"></div>
           </div>
         </div>
+
         <div class="skill">
           <p>CSS</p>
           <div class="bar">
             <div class="progress" data-width="85%"></div>
           </div>
         </div>
+
         <div class="skill">
           <p>JavaScript</p>
           <div class="bar">
             <div class="progress" data-width="70%"></div>
           </div>
         </div>
+
         <div class="skill">
           <p>Python</p>
           <div class="bar">
             <div class="progress" data-width="80%"></div>
           </div>
         </div>
+
       </div>
+
     </section>
-    
+
+
     <!-- Tools -->
     <section id="tools" class="fade">
+
       <h2 class="section-title">Tools</h2>
+
       <div class="tools">
+
         <div class="tool-card">GitHub</div>
         <div class="tool-card">Git CLI</div>
         <div class="tool-card">Bash / Shell</div>
@@ -127,270 +152,133 @@
         <div class="tool-card">MySQL</div>
         <div class="tool-card">JSON</div>
         <div class="tool-card">JWT Authentication</div>
+
       </div>
+
     </section>
-    
+
+
     <!-- Featured Project -->
     <section id="featured" class="fade">
+
       <h2 class="section-title">Featured Project</h2>
+
       <div class="featured">
+
         <h3>Kyvera Programming Language</h3>
+
         <p>
           Kyvera is an experimental programming language inspired by Python. It
           explores how languages are executed and structured while keeping a
           simple developer experience.
         </p>
+
         <pre>python run.py hello_de.kyv</pre>
+
         <p>
           The project experiments with interpreters, syntax ideas, and language
           runtime behaviour.
         </p>
+
         <div class="project-buttons">
           <a href="https://github.com/iretiola-007/Kyvera">GitHub</a>
           <a href="https://github.com/iretiola-007/Kyvera/blob/main/README.md">Docs</a>
         </div>
+
       </div>
+
     </section>
-    
+
+
     <!-- Projects -->
     <section id="projects" class="fade">
+
       <h2 class="section-title">Projects</h2>
+
       <div class="projects">
+
         <div class="project-card">
+
           <h3>BME Nigeria</h3>
+
           <p>
             A biomedical engineering research publication platform that evolved from
             an article site into a multi-page system.
           </p>
+
           <div class="project-buttons">
             <a href="https://github.com/iretiola-007/bme-nigeria/">GitHub</a>
             <a href="https://bme-nigeria.vercel.app/">Live</a>
           </div>
+
         </div>
+
+
         <div class="project-card">
+
           <h3>Bug Bounty Hunter</h3>
+
           <p>
             A fun project where developers fix bugs for practice and challenge.
           </p>
+
           <div class="project-buttons">
             <a href="https://github.com/iretiola-007/Bug-Bounty-Hunter/">GitHub</a>
           </div>
+
         </div>
+
       </div>
+
     </section>
-    
+
+
     <!-- Platforms -->
     <section id="platforms" class="fade">
+
       <h2 class="section-title">Platforms</h2>
-        <div class="platforms">
-          <a href="https://github.com/iretiola-007" class="platform-card" target="_blank">GitHub</a>
-    
-          <a href="https://www.linkedin.com/in/aishat-abisiga-746a673a6" class="platform-card" target="_blank">LinkedIn</a>
-    
-          <a href="https://discord.com/users/1449014115019391101" class="platform-card">Discord</a>
-    
-          <a href="https://wa.me/+2349129460510" class="platform-card">WhatsApp</a>
-    
-          <a href="https://reddit.com/u/YOURUSERNAME" class="platform-card" target="_blank">Reddit</a>
-    
-          <a href="https://medium.com/@iretiola-007" class="platform-card" target="_blank">Medium</a>
-    
-          <a href="https://dev.to/iretiola-007" class="platform-card" target="_blank">Dev.to</a>
-    
-          <a href="https://daily.dev/iretiola-007" class="platform-card" target="_blank">Daily.dev</a>
-        </div>
-      </section>
-    
+
+      <div class="platforms">
+
+        <a href="https://github.com/iretiola-007" class="platform-card" target="_blank">GitHub</a>
+
+        <a href="https://www.linkedin.com/in/aishat-abisiga-746a673a6" class="platform-card" target="_blank">LinkedIn</a>
+
+        <a href="https://discord.com/users/1449014115019391101" class="platform-card">Discord</a>
+
+        <a href="https://wa.me/+2349129460510" class="platform-card">WhatsApp</a>
+
+        <a href="https://reddit.com/u/YOURUSERNAME" class="platform-card" target="_blank">Reddit</a>
+
+        <a href="https://medium.com/@iretiola-007" class="platform-card" target="_blank">Medium</a>
+
+        <a href="https://dev.to/iretiola-007" class="platform-card" target="_blank">Dev.to</a>
+
+        <a href="https://daily.dev/iretiola-007" class="platform-card" target="_blank">Daily.dev</a>
+
+      </div>
+
+    </section>
+
+
     <!-- Contact -->
     <section id="contact" class="fade">
+
       <h2 class="section-title">Contact</h2>
-      <p>Email: <a href="mailto:abisigairetiola@gmail.com">abisigairetiola@gmail.com</a></p>
+
+      <p>Email:
+        <a href="mailto:abisigairetiola@gmail.com">
+          abisigairetiola@gmail.com
+        </a>
+      </p>
+
     </section>
-    
-    <!-- Full CLI Terminal Overlay -->
-      <!-- <div id="cli-overlay" class="cli-hidden">
-      <div class="cli-window">
-        <div class="cli-header">Developer Console (press Ctrl + ` to close)</div>
-        <div id="cli-output"></div>
-        <div class="cli-input-line">
-          <span>$</span>
-          <input id="cli-input" autocomplete="off" />
-        </div>
-      </div>
-    </div> -->
-    
+
+
     <a href="https://wa.me/+2349129460510?text=Hi%20Iretiola" class="whatsapp-float" target="_blank">
       <img src="images/whatsapp-icon.svg" alt="WhatsApp">
       <span class="whatsapp-text">Let's chat</span>
     </a>
-    <script>
-    
-    /* TERMINAL TYPING INTRO */
-    
-      const lines = document.querySelectorAll('.terminal-line');
-      let lineIndex = 0;
-      
-      function typeLine(){
-        if(lineIndex >= lines.length) return;
-      
-        const el = lines[lineIndex];
-        const text = el.dataset.text;
-        let i = 0;
-      
-        function typeChar(){
-          if(i < text.length){
-            el.textContent += text.charAt(i);
-            i++;
-            setTimeout(typeChar,30);
-          } else{
-            lineIndex++;
-            setTimeout(typeLine,400);
-          }
-        }
-      
-        typeChar();
-      }
-      
-      typeLine();
-      
-      
-      
-      /* TERMINAL COMMANDS */
-      
-      const input = document.getElementById("terminal-input");
-      const output = document.getElementById("terminal-output");
-      
-      const commands = {
-        help: "commands: help, about, projects, skills, contact, kyv",
-        about: "I'm a developer who enjoys building experimental tools and web projects.",
-        projects: "Kyvera, BME Nigeria, Bug Bounty Hunter",
-        skills: "HTML, CSS, JavaScript, Python",
-        contact: "email: abisigairetiola@gmail.com"
-      };
-      
-      input.addEventListener("keydown", function(e){
-      
-        if(e.key === "Enter"){
-      
-          const value = input.value.trim().toLowerCase();
-      
-          const line = document.createElement("p");
-          line.textContent = "$ " + value;
-          output.appendChild(line);
-      
-      
-          /* Kyvera command */
-      
-          if(value === "kyv"){
-      
-            const cmd = document.createElement("p");
-            cmd.textContent = "$ kyv run hello_de.kyv";
-            output.appendChild(cmd);
-      
-            const res = document.createElement("p");
-            res.textContent = "Hello, I'm Iretiola 👋";
-            output.appendChild(res);
-      
-          } else{
-      
-            const response = document.createElement("p");
-            response.textContent = commands[value] || "command not found";
-            output.appendChild(response);
-      
-          }
-      
-          input.value = "";
-      
-        }
-      
-      });
-      
-      
-      
-      /* SCROLL FADE ANIMATION */
-      
-      const observer = new IntersectionObserver(entries => {
-      
-      entries.forEach(entry => {
-      
-        if(entry.isIntersecting){
-        entry.target.classList.add('show');
-        }
-      
-      });
-      
-    });
-      
-    document.querySelectorAll('.fade').forEach(el => observer.observe(el));
-      
-      
-      
-    /* SKILL BAR ANIMATION */
-      
-    const bars = document.querySelectorAll(".progress");
-    
-    const skillObserver = new IntersectionObserver(entries => {
-      
-      entries.forEach(entry => {
-      
-        if(entry.isIntersecting){
-      
-          const bar = entry.target;
-          bar.style.width = bar.dataset.width;
-      
-        }
-      
-      });
-      
-    });
-      
-    bars.forEach(bar => skillObserver.observe(bar));
-      
-      
-      
-    /* HAMBURGER MENU */
-      
-    const hamburger = document.getElementById("hamburger");
-    const navLinks = document.getElementById("nav-links");
-      
-    hamburger.addEventListener("click", () => {
-      
-      navLinks.classList.toggle("nav-open");
-      hamburger.classList.toggle("active");
-      
-    });
-      
-      
-      
-      /* CURSOR GLOW EFFECT */
-      
-      const glow = document.getElementById("cursor-glow");
-  
-      let mouseX = 0;
-      let mouseY = 0;
-  
-      let glowX = 0;
-      let glowY = 0;
-  
-      window.addEventListener("mousemove", (e) => {
-        mouseX = e.clientX;
-        mouseY = e.clientY;
-      });
-  
-      function animateGlow(){
-  
-        glowX += (mouseX - glowX) * 0.1;
-        glowY += (mouseY - glowY) * 0.1;
-  
-        glow.style.left = glowX + "px";
-        glow.style.top = glowY + "px";
-  
-        requestAnimationFrame(animateGlow);
-  
-      }
-  
-      animateGlow();
-    
-    </script>
+
   </body>
 </html>
