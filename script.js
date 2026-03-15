@@ -1,4 +1,4 @@
-/* TERMINAL TYPING INTRO */
+/* terminal typing intro */
 
 const lines = document.querySelectorAll('.terminal-line');
 let lineIndex = 0;
@@ -33,7 +33,7 @@ function typeLine(){
 typeLine();
 
 
-/* TERMINAL COMMANDS */
+/* Terminal commands */
 
 const input = document.getElementById("terminal-input");
 const output = document.getElementById("terminal-output");
@@ -82,7 +82,6 @@ input.addEventListener("keydown", function(e){
 });
 
 
-/* SCROLL FADE ANIMATION */
 
 const observer = new IntersectionObserver(entries => {
 
@@ -99,7 +98,7 @@ const observer = new IntersectionObserver(entries => {
 document.querySelectorAll('.fade').forEach(el => observer.observe(el));
 
 
-/* SKILL BAR ANIMATION */
+/* skill bar */
 
 const bars = document.querySelectorAll(".progress");
 
@@ -121,8 +120,6 @@ const skillObserver = new IntersectionObserver(entries => {
 bars.forEach(bar => skillObserver.observe(bar));
 
 
-/* HAMBURGER MENU */
-
 const hamburger = document.getElementById("hamburger");
 const navLinks = document.getElementById("nav-links");
 
@@ -134,7 +131,7 @@ hamburger.addEventListener("click", () => {
 });
 
 
-/* CURSOR GLOW EFFECT */
+/* cursor glow */
 
 const glow = document.getElementById("cursor-glow");
 
@@ -161,4 +158,6 @@ function animateGlow(){
 }
 
 animateGlow();
+
+
 
