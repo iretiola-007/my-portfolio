@@ -80,6 +80,7 @@ color:#c084fc;
 display:flex;
 gap:30px;
 list-style:none;
+  z-index: 1100;
 }
 
 .nav-links a{
@@ -91,6 +92,13 @@ transition:0.3s;
 
 .nav-links a:hover{
 color:#f472b6;
+}
+
+.nav-links.nav-open{
+opacity:1;
+transform:translateY(0);
+pointer-events:auto;
+display:flex;
 }
 
 /* Hamburger */
@@ -477,4 +485,10 @@ align-items:flex-start;
 p a{
 text-decoration:none;
 color:inherit;
+}
+
+.project-img{
+width:100%;
+border-radius:8px;
+margin-bottom:10px;
 }
